@@ -135,7 +135,7 @@ class SearchableBehavior extends ModelBehavior {
 				'between' => '<span class="search-snippet-separator"> [...] </span>', // String to display between snippets
 			),
 			'match' => array(
-				'before' => '<span class="search-match" style="color: red">', // String to display before matches
+				'before' => '<span class="search-match">', // String to display before matches
 				'after' => '</span>', // String to display after matches
 			),
 		),

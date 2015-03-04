@@ -350,7 +350,7 @@ class SearchableBehavior extends ModelBehavior {
 	}
 
 	/**
-	 * $param object $Model
+	 * @param object $Model
 	 * @param string $field: database field to search
 	 * @param array $patterns: patterns as strings
 	 * @param boolean $markup: true if searched field contains markup (then patterns must be sanitized)
@@ -411,7 +411,7 @@ class SearchableBehavior extends ModelBehavior {
 	 * Adds markup left and right of matches
 	 * Keeps only snippets of text surrounding matches if text is long
 	 * Adds markup left and right of these snippets, and between them
-	 * $param object $Model
+	 * @param object $Model
 	 * @param string $text
 	 * @param array $patterns 
 	 * @param boolean $markup: true if text is long (may contain markup to ignore, and only text surrounding matches is to be displayed)
